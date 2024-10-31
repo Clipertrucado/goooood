@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajustado para mover la barra más arriba */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid white;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+nav ul li a:hover {
+    color: #E5A65E; /* Cambia el color al pasar el mouse */
+}
+
+.social-icons a {
+    color: white; 
+    font-size: 35px; /* Tamaño de íconos aumentado */
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #E5A65E; /* Cambia el color al pasar el mouse */
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 100px;  /* Ajusta según la distancia que quieras del fondo */
+    left: 50px;     /* Ajusta según la distancia que quieras del borde izquierdo */
+    text-align: left;
+    max-width: 41%; /* Limita el ancho del texto al 40% de la pantalla */
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;  /* Controla el espaciado entre líneas */
+}
+

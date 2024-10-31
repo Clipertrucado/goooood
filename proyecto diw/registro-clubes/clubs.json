@@ -1,0 +1,44 @@
+[
+  {
+    "nombre_club": "asdf",
+    "colores_club": "asdf",
+    "mail_club": "asdf",
+    "contraseña_club": "asdf"
+  },
+  {
+    "nombre_club": "d",
+    "colores_club": "d",
+    "mail_club": "d",
+    "contraseña_club": "d"
+  },
+  {
+    "nombre_club": "a",
+    "colores_club": "a",
+    "mail_club": "a",
+    "contraseña_club": "d"
+  },
+  {
+    "nombre_club": "2",
+    "colores_club": "2",
+    "mail_club": "2",
+    "contraseña_club": "2"
+  },
+  {
+    "nombre_club": "e",
+    "colores_club": "e",
+    "mail_club": "e",
+    "contraseña_club": "e"
+  },
+  {
+    "nombre_club": "k",
+    "colores_club": "k",
+    "mail_club": "k",
+    "contraseña_club": "k"
+  },
+  {
+    "nombre_club": "j",
+    "colores_club": "j",
+    "mail_club": "j",
+    "contraseña_club": "j"
+  }
+]
